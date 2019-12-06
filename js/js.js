@@ -80,7 +80,7 @@ $(document).ready(function(){
 					img++;
 				else
 					img--;
-				if (img === 2)
+				if (img === $('#project-presentation-ul li').length)
 					img = 0;
 				$('.project-presentation').removeClass("onfocus");
 				$('.project-presentation').eq(img).addClass("onfocus");

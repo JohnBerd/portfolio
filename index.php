@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		<meta charset="utf-8">
 
 		<meta name="title" content="Xavier Le Cunff | E-Portfolio">
-		<meta name="description" content="Qui je suis, qu'est-ce que je fais dans la vie... Présentation d'un passionné d'informatique dans son petit bonhomme de chemin">
+		<meta name="description" content="Qui je suis, qu'est-ce que je fais dans la vie... Présentation d'un passionné d'informatique sur son petit bonhomme de chemin">
 		<meta name="keywords" content="developpeur, programmeur, android, c, c++, java, html, css, javascript, react, arduino, cv, 2020">
 		<meta name="robots" content="index, follow">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -117,7 +117,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 							<h2 id="1">Ma présentation</h2>
 							<hr>
 							<p>
-							Grand passionné d'informatique, je me suis réorienté après un DUT Gestion des Entreprises et des Administrations vers un DUT Informatique année spéciale. Je suis maintenant persuadé d'avoir trouvé ma voie.
+							Grand passionné d'informatique, je me suis réorienté après un DUT Gestion des Entreprises et des Administrations vers un domaine qui me tenait vraiment à coeur: l'informatique.
 							<br>
 							Je considère que nous sommes à une époque où les technologies se développent à une vitesse exponentielle, c'est pourquoi je me renseigne sur les toutes nouvelles technologies comme l'intelligence artificielle, le deep learning et la blockchain, tout en apprenant les langages de base de programmation comme le C/C++/C# et le Java (langage permettant la programmation d'applications mobiles).</p>
 						</div>
@@ -129,7 +129,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 							<h2 id="2">Mon parcours</h2>
 							<hr>
 							<p>
-							Titulaire d'un Bac Scientifique, je me suis orienté vers des études de commerce dans le but d'obtenir mon indépendance financière. Mes différentes expériences, notamment mon travail les week-ends sur les marchés avec mon propre stand et mon stage de validation de diplôme de GEA, m'ont confirmés que ce n'était pas fait pour moi. Pendant ce temps, je me suis découvert une véritable passion pour l'informatique, consultant durant mon temps libre de plus en plus de tutoriaux, d'abord concernant la création de sites internet, puis la programmation et même l'électronique. J'ai ensuite passé le concours d'entrée à l'école 42, qui consiste à passer un mois non stop au sein de l'établissement, afin d'apprendre le langage de programmation C. Je suis aujourd'hui inscrit à l'IUT de Villetaneuse, en année spéciale d'informatique, une formation intensive qui permet d'obtenir son DUT informatique en 1 an au lieu de 2.<br>Je vous invite à télécharger mon CV au format PDF ci-dessous.
+							Titulaire d'un Bac Scientifique, je me suis orienté vers des études de commerce dans le but d'obtenir mon indépendance financière. Mes différentes expériences, notamment mon travail les week-ends sur les marchés avec mon propre stand et mon stage de validation de diplôme de GEA, m'ont confirmés que ce n'était pas fait pour moi. Pendant ce temps, je me suis découvert une véritable passion pour l'informatique, consultant durant mon temps libre de plus en plus de tutoriaux, d'abord concernant la création de sites internet, puis la programmation et même l'électronique et le hacking. J'ai ensuite passé le concours d'entrée à l'école 42, qui consiste à passer un mois non stop au sein de l'établissement, afin d'apprendre le langage de programmation C. Ceci a pour but de nous enseigner les bases de programmation à la dure (tout devait être fait dans un terminal UNIX, y comprit l'écriture du code). Je me suis ensuite inscrit à l'IUT de Villetaneuse, en année spéciale d'informatique, une formation intensive qui permet d'obtenir son DUT informatique en 1 an au lieu de 2. Pour ma "3ème" année d'étude, j'ai décidé de choisir Epitech, bien parce que c'est le papa de 42 dans sa pédagogie, et que cette expérience de piscine à été la plus belle de ma vie. J'ai été admis en 3ème année spéciale, qui combine les 3 premières années d'Epitech en une. Je fais aujourd'hui ma 4ème année en Hongrie, où je découvre les bases de l'intelligence artificielle.<br>Je vous invite à télécharger mon CV au format PDF ci-dessous.
 							</p>
 							<div class="download-cv"><a href="cv.pdf" target="_blank"><div><i class="fa fa-download"></i></div></a></p>
 						</div>
@@ -145,16 +145,24 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 									<tr><th class="td-title" colspan="2"><h3>En programmation:</h3></th></tr>
 									<tr>
 										<th class="ico-content"><img class="prog-ico" src="images/c.png" alt="C"></th>
-										<td>Permet la programmation de logiciels sous Windows, Linux et Mac.</td>
+										<td>Bien que plus très utilisé dans les entreprises, hormis pour l'embarqué et pour concevoir des logiciels ultra rapides, c'est le language qui me tient le plus à coeur, étant le premier que j'ai appris. Je le maîtrise quasi parfaitement.
+											<br>Un developpeur ne peut pas légitimement connaître le fonctionnement d'un ordinateur sans avoir programmé en C, et sans savoir ce qu'est un "seg fault". Rien n'y est laissé au hasard. C'est en apprenant le C que j'ai appris la rigueur et la patience (j'ai eu quelques fois envie de casser ma machine). Tout un cheminement digne des plus grands moines de Shaolin!
+										</td>
 									</tr>
 									<tr>
 										<th class="ico-content"><img class="prog-ico" src="images/java.png" alt="java"></th>
-										<td>Permet la création de logiciels de bureau en plus de la création d'applications Android.</td>
+										<td>La programmation orientée objet (POO), quelle meilleure introduction que le Java pour s'y mettre?
+											<br>C'est tout un autre monde! On quitte le domaine de l'algorythmie pure pour se concentrer sur la programmation d'un projet et sa sctructure. On y apprend de nouveaux concepts très nombreux et tellement utiles.
+											<br>Une fois bien maîtrisé, j'ai pu savourer mes cours de "design pattern" (les différrents types de structures que l'on peu adopter pour un projet ou l'une de ses parties)
+										</td>
 									</tr>
 									<tr><td class="td-title" colspan="2"><h3>En développement web:</h3></td></tr>
 									<tr>
 										<th class="ico-content"><img class="prog-ico" src="images/html.jpg" alt="C"></th>
-										<td>Création de la façade d'un site web</td>
+										<td>Alors là, on attaque un gros morceau! Avant même de commencer mes études en informatique, je me suis interessé à Wordpress et au HTML/CSS. j'avais compris que j'avais besoin du Javascript pour faire de jolis menus déroulants et du PHP pour interagir avec le serveur, et puis du SQL pour interragir avec une base de donnée! Piou, en fait le web ça n'en finit jamais...
+											<br>J'obtiens mon stage de fin de DUT pour m'occuper d'une appli web, ça tombe bien j'ai quelques bases! On me parle d'Angular, de React, de Node, de MongoDB, d'une API! Quoi? C'est quoi tout ça? M'a t-on leurré depuis le début de mes études?
+											<br>En fait non. Le monde du developpement évolue de manière exponentielle ces dernières années. Et heureusement, j'ai pu à peu près me mettre à niveau sur toute ces technologies.
+										</td>
 									</tr>
 									<tr>
 										<th class="ico-content"><img class="prog-ico" src="images/php.png" alt="C"></th>
