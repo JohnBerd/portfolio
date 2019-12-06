@@ -91,7 +91,7 @@ $(document).ready(function(){
 	var message = 0;
 	var name = 0;
 	var mail = 0;
-	var reg = /^\w+@[a-z]+\.[a-z]+$/;
+	var reg = /^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/;
 	$("#contact-form").submit(function formSubmit(e)
 		{
 			if ($("#form-name").val().length < 3)

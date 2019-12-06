@@ -37,6 +37,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 	<head>
 		<meta name="viewport" content="width=device-width">
 		<meta charset="utf-8">
+
+		<meta name="title" content="Xavier Le Cunff | E-Portfolio">
+		<meta name="description" content="Qui je suis, qu'est-ce que je fais dans la vie... Présentation d'un passionné d'informatique dans son petit bonhomme de chemin">
+		<meta name="keywords" content="developpeur, programmeur, android, c, c++, java, html, css, javascript, react, arduino, cv, 2020">
+		<meta name="robots" content="index, follow">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="language" content="French">
+		<meta name="author" content="XAVIER LE CUNFF">
+
 		<title>Xavier Le Cunff</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
@@ -232,7 +241,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 					<li><a href="https://www.linkedin.com/in/xavier-le-cunff-587522157/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 					<li><a href="https://twitter.com/Xavierlecunff" target="_blank"><i class="fa fa-twitter"></i></a></li>
 				</ul>
-				<p>Xavier Le Cunff - 2018</p>
+				<p>Xavier Le Cunff - 2020</p>
 			</footer>
 			<script type="text/javascript" src="js/jquery.js"></script>
 			<script type="text/javascript" src="js/js.js"></script>

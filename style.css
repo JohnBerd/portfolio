@@ -523,7 +523,7 @@ i::before
 #arrow-left
 {
 	float: left;
-	margin-top: 25%;
+	margin-top: 30%;
 	margin-left: 1.5em;
 	position: relative;
 	cursor: pointer;
@@ -533,7 +533,7 @@ i::before
 #arrow-right
 {	
 	float: right;
-	margin-top: 25%;
+	margin-top: 30%;
 	cursor: pointer;
 	position: relative;
 	z-index: 5;
